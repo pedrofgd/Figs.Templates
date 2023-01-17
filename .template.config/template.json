@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Pedro Figueiredo",
+  "classifications": ["C#", "Web API"],
+  "identity": "Figs.Templates.API",
+  "name": "Figs.Templates.API",
+  "shortName": "figs.api",
+  "tags": {
+    "type": "solution",
+    "language": "C#"
+  },
+  "sourceName": "Figs.Templates.API",
+  "preferNameDirectory": true
+}
