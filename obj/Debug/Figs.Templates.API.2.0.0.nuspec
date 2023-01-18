@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Figs.Templates.API</id>
+    <version>2.0.0</version>
+    <title>My first template for Web API</title>
+    <authors>Me</authors>
+    <description>Package Description</description>
+    <tags>dotnet-new template</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/.gitignore" target="content/templates/.gitignore" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/.idea/.idea.Templates/.idea/workspace.xml" target="content/templates/.idea/.idea.Templates/.idea/workspace.xml" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/.template.config/template.json" target="content/templates/.template.config/template.json" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/Figs.Templates.API/Controllers/HelloController.cs" target="content/templates/Figs.Templates.API/Controllers/HelloController.cs" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/Figs.Templates.API/Controllers/HelloReversedController.cs" target="content/templates/Figs.Templates.API/Controllers/HelloReversedController.cs" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/Figs.Templates.API/Figs.Templates.API.csproj" target="content/templates/Figs.Templates.API/Figs.Templates.API.csproj" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/Figs.Templates.API/Program.cs" target="content/templates/Figs.Templates.API/Program.cs" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/Figs.Templates.API/Properties/launchSettings.json" target="content/templates/Figs.Templates.API/Properties/launchSettings.json" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/nuget.config" target="content/templates/nuget.config" />
+    <file src="/Users/pedrodias/dev/playground/c#/Templates/templates/Templates.sln" target="content/templates/Templates.sln" />
+  </files>
+</package>

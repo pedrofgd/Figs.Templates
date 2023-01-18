@@ -37,3 +37,6 @@ with flags:
 3. Push with `dotnet nuget push nupkgs/Figs.Template.API.1.0.0.nupkg" --api-key YOUR_GITHUB_PAT --source "github"`
 
 **Obs:** for the Token, I used GitHub classic (instead of fine-grained)
+
+## Publish to nuget.org
+

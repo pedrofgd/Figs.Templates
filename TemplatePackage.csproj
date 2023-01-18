@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>2.0</PackageVersion>
+    <PackageId>Figs.Templates.API</PackageId>
+    <Title>My first template for Web API</Title>
+    <Authors>Me</Authors>
+    <PackageTags>dotnet-new;template;</PackageTags>
+    <TargetFramework>net7.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+</Project>
