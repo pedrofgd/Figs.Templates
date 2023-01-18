@@ -6,20 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb865bf5-8e4b-418c-9e91-354f53490e46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TemplatePackage.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Templates/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Templates/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Templates/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.template.config/template.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Figs.Templates.API/Controllers/HelloController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Figs.Templates.API/Controllers/HelloReversedController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Figs.Templates.API/Figs.Templates.API.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Figs.Templates.API/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Figs.Templates.API/Properties/launchSettings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Templates.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nuget.config" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673911314603</updated>
       <workItem from="1673911315599" duration="8360000" />
-      <workItem from="1674005088843" duration="1584000" />
+      <workItem from="1674005088843" duration="2242000" />
     </task>
     <servers />
   </component>

@@ -40,3 +40,25 @@ with flags:
 
 ## Publish to nuget.org
 
+Use command:
+
+`dotnet nuget push nupkgs/Figs.Templates.API.1.0.0.nupkg --api-key <API_KEY> --source https://api.nuget.org/v3/index.json`
+
+## Proper configuration for template
+
+Create a `templates` directory to store everything that is actually template files.
+
+Then create a `.csproj` at the root, with packages configurations, such as the version, type, author, id etc. In this file set up a `Content` Tag to specify with files will be part of the package, in this case, everything in `templates`. Also specify the files to compile, that in that case will have any:
+
+``` C#
+<ItemGroup>
+  <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+  <Compile Remove="**\*" />
+</ItemGroup>
+```
+
+Details:
+- [Microsoft docs](https://learn.microsoft.com/en-us/dotnet/core/tools/custom-templates#pack-a-template-into-a-nuget-package-nupkg-file)
+- [TemplatePackage.csproj](./TemplatePackage.csproj)
+
+Use `dotnet pack --no-build --output nupkgs` to pack.
